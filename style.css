@@ -35,3 +35,18 @@ footer {
     font-size: 0.9em;
     color: #555;
 }
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
