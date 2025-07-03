@@ -49,4 +49,21 @@ footer {
         font-size: 1.5em;
     }
 }
+body {
+    background-color: #f9f9f9;
+}
+
+section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+ol li:hover {
+    background-color: #eef4ff;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
 
